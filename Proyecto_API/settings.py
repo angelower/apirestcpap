@@ -76,12 +76,12 @@ WSGI_APPLICATION = "Proyecto_API.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "HOST":"sqlsrv:server = tcp:apirestcpap.database.windows.net",
-        "PORT":"1433",
-        "USER":"adminapirestcpap",
+        "ENGINE": "django.db.backends.postgresql",
+        "HOST":"serverdbcpap.postgres.database.azure.com",
+        "PORT":"5432",
+        "USER":"adminapirestcpap@databasecpap",
         "PASSWORD":"Apirestcpap123#",
-        "NAME":"dbcpap",
+        "NAME":"postgres",
         "OPTIONS":{
             "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
         }
