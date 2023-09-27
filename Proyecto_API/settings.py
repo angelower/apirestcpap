@@ -77,8 +77,8 @@ WSGI_APPLICATION = "Proyecto_API.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST":"apirestcpap.database.windows.net",
-        "PORT":"3306",
+        "HOST":"sqlsrv:server = tcp:apirestcpap.database.windows.net",
+        "PORT":"1433",
         "USER":"adminapirestcpap",
         "PASSWORD":"Apirestcpap123#",
         "NAME":"dbcpap",
