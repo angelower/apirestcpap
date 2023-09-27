@@ -76,7 +76,7 @@ WSGI_APPLICATION = "Proyecto_API.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "...",
+        "ENGINE": "django.db.backends.postgresql",
         "HOST":"cpapservice-server.postgres.database.azure.com",
         "PORT":"5432",
         "USER":"ucqleiryqt",
