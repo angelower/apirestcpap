@@ -77,11 +77,11 @@ WSGI_APPLICATION = "Proyecto_API.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST":"localhost",
+        "HOST":"apirestcpap.database.windows.net",
         "PORT":"3306",
-        "USER":"root",
-        "PASSWORD":"",
-        "NAME":"django_api",
+        "USER":"adminapirestcpap",
+        "PASSWORD":"Apirestcpap123#",
+        "NAME":"dbcpap",
         "OPTIONS":{
             "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
         }
