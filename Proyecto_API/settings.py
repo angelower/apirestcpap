@@ -77,11 +77,11 @@ WSGI_APPLICATION = "Proyecto_API.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "HOST":"cpapservice-server.postgres.database.azure.com",
+        "HOST":"serverdbcpap.postgres.database.azure.com",
         "PORT":"5432",
-        "USER":"ucqleiryqt",
-        "PASSWORD":"R8XV1Q58T452BUDF$",
-        "NAME":"cpapservice-database",
+        "USER":"adminapirestcpap",
+        "PASSWORD":"Apirestcpap123#",
+        "NAME":"postgres",
         "OPTIONS":{
             "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
         }
