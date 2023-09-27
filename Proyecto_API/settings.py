@@ -79,7 +79,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "HOST":"serverdbcpap.postgres.database.azure.com",
         "PORT":"5432",
-        "USER":"adminapirestcpap@databasecpap",
+        "USER":"adminapirestcpap",
         "PASSWORD":"Apirestcpap123#",
         "NAME":"postgres",
         "OPTIONS":{
