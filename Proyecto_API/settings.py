@@ -81,7 +81,7 @@ DATABASES = {
         "PORT":"5432",
         "USER":"ucqleiryqt",
         "PASSWORD":"Cpapservices123#",
-        "NAME":"cpapservicedb", 
+        "NAME":"cpapservice-database", 
         # "OPTIONS":{
         #     "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
         # }
