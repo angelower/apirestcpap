@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-^q54gbi0-zt15ins=v!7zk_y(^n^9=#i%lo)x%!1-ut57qs_19
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cpapbioudea.azurewebsites.net','http://127.0.0.1:8000/']
+ALLOWED_HOSTS = ['cpapservice.azurewebsites.net','http://127.0.0.1:8000/']
 
 
 # Application definition
@@ -81,7 +81,7 @@ DATABASES = {
         "PORT":"5432",
         "USER":"ucqleiryqt",
         "PASSWORD":"R8XV1Q58T452BUDF$",
-        "NAME":"cpapservice-database",
+        "NAME":"cpapservicedb",
         "OPTIONS":{
             "init_command":"SET log_error_verbosity TO 'verbose'"
         }
