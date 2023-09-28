@@ -73,15 +73,15 @@ WSGI_APPLICATION = "Proyecto_API.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
+#Cpapservices123#
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "HOST":"cpapservice-server.postgres.database.azure.com",
         "PORT":"5432",
-        "USER":"ucqleiryqt",
-        "PASSWORD":"R8XV1Q58T452BUDF$",
-        "NAME":"cpapservicedb",
+        "USER":"ucqleiryqt@cpapservice-server",
+        "PASSWORD":"Cpapservices123#",
+        "NAME":"cpapservicedb", 
         "OPTIONS":{
             "init_command":"SET log_error_verbosity TO 'verbose'"
         }
