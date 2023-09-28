@@ -82,9 +82,9 @@ DATABASES = {
         "USER":"ucqleiryqt@cpapservice-server",
         "PASSWORD":"Cpapservices123#",
         "NAME":"cpapservicedb", 
-        "OPTIONS":{
-            "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
-        }
+        # "OPTIONS":{
+        #     "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
+        # }
     }
 }
 
