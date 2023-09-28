@@ -83,7 +83,7 @@ DATABASES = {
         "PASSWORD":"Cpapservices123#",
         "NAME":"cpapservicedb", 
         "OPTIONS":{
-            "init_command":"SET log_error_verbosity TO 'verbose'"
+            "init_command":"SET sql_mode='STRICT_TRANS_TABLES'"
         }
     }
 }
