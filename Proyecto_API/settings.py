@@ -79,7 +79,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "HOST":"127.0.0.1",
         "PORT":"5432",
-        "USER":"ucqleiryqt@cpapservice-server",
+        "USER":"ucqleiryqt",
         "PASSWORD":"Cpapservices123#",
         "NAME":"cpapservicedb", 
         # "OPTIONS":{
